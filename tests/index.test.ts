@@ -2171,8 +2171,17 @@ describe('ValidateFilePathWithNameAndExtension', () => {
     })
     test('ValidateFilePathWithNameAndExtension_FilePathWithoutExtension_ReturnsFalse', () => {
         //Arrange
-        const testString: string = 'c:/example/examplefile';
+        const testString: string = '/example/examplefile';
         const expectedResponse: boolean = false;
+        //Act
+        const response: boolean = validator.ValidateFilePathWithNameAndExtension(testString);
+        //Assert
+        expect(response).toBe(expectedResponse);
+    })
+    test('ValidateFilePathWithNameAndExtension_FilePathWithExtension_ReturnsTrue', () => {
+        //Arrange
+        const testString: string = '/example/examplefile.zip';
+        const expectedResponse: boolean = true;
         //Act
         const response: boolean = validator.ValidateFilePathWithNameAndExtension(testString);
         //Assert
