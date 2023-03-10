@@ -20,5 +20,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/WayneHarrison/regex-validator.git"
+  },
+  "dependencies": {
+    "simple-regex-validator": "^1.0.2"
   }
 }

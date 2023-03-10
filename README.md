@@ -7,6 +7,8 @@ This is a simple regex validator that contains contains common regex patterns.
 `npm i simple-regex-validator`
 ## Unit Tests Passing?
 ![Jest Workflow](https://github.com/WayneHarrison/regex-validator/actions/workflows/main.yml/badge.svg)
+## Demo Website
+![Demo](https://main.d1v0mei09mjabl.amplifyapp.com/)
 ## Basic Usage
 ```
     import RegexValidator from 'simple-regex-validator';
