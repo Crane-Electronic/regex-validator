@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WayneHarrison/regex-validator.git"
+    "url": "https://github.com/Crane-Electronic/regex-validator.git"
   },
   "dependencies": {
     "simple-regex-validator": "^1.0.2"
