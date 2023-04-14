@@ -1,6 +1,6 @@
 {
   "name": "simple-regex-validator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Quick regex validator for common regex values.",
   "main": "index.ts",
   "scripts": {
