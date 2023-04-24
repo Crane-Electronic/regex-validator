@@ -2,7 +2,7 @@
   "name": "simple-regex-validator",
   "version": "1.0.5",
   "description": "Quick regex validator for common regex values.",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
